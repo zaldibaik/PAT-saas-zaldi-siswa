@@ -1,12 +1,14 @@
 import { Card, Button } from "flowbite-react";
 import React, { Component } from "react";
 
-class Heading extends Component {
+class Fitur3 extends Component {
   render() {
     return (
       <div className="container">
         <div className="row">
-          <div className="col h1 text-center p">Islamic Boarding <br></br> School SMK TI BAZMA</div>
+          <div className="col h1 text-center p">
+            Islamic Boarding <br></br> School SMK TI BAZMA
+          </div>
           <div className="col order-5 text-center">
             <div className="mb-3 p h3">
               Track work across the enterprise through an open, collaborative
@@ -24,7 +26,6 @@ class Heading extends Component {
             <br></br>
 
             <button className="btn btn-dark">Selengkapanya</button>
-
           </div>
         </div>
       </div>
@@ -32,4 +33,4 @@ class Heading extends Component {
   }
 }
 
-export default Heading;
+export default Fitur3;

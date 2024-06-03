@@ -37,8 +37,7 @@ class Myfooter extends Component {
                 <ul class="text-gray-500 white:text-gray-400 font-medium">
                   <li>
                     <a href="#" class="hover:underline">
-                    <div className="h6">
-                      info@smktibazma.sch.id</div>
+                      <div className="h6">info@smktibazma.sch.id</div>
                     </a>
                   </li>
                 </ul>
@@ -48,10 +47,11 @@ class Myfooter extends Component {
                   Nomor Telpon
                 </h2>
                 <ul class="text-gray-500 white:text-gray-400 font-medium">
-                  <li><div className="h6">
-                    <a href="#" class="hover:underline">
-                      08 1111 4433 9
-                    </a>
+                  <li>
+                    <div className="h6">
+                      <a href="#" class="hover:underline">
+                        08 1111 4433 9
+                      </a>
                     </div>
                   </li>
                 </ul>

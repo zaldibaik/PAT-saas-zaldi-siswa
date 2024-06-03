@@ -5,7 +5,7 @@ class Fitur extends Component {
   render() {
     return (
       <div className="container">
-      <div h2 >Fasilitas sekolah</div>
+        <div h2>Fasilitas sekolah</div>
         <div className="row">
           <div className="col text-center">
             <Card className="br">
@@ -14,6 +14,11 @@ class Fitur extends Component {
           </div>
           <div className="col text-center">
             <Card className="br">
+              <p>djkashdjhd</p>
+            </Card>
+          </div>
+          <div className="col text-center">
+            <Card>
               <p>djkashdjhd</p>
             </Card>
           </div>
