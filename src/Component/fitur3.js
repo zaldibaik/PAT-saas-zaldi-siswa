@@ -1,13 +1,21 @@
 import { Card, Button } from "flowbite-react";
 import React, { Component } from "react";
+import Logo from "./assets/logobazma2.png"
 
 class Fitur3 extends Component {
   render() {
     return (
       <div className="container">
+<<<<<<< Updated upstream:src/Component/fitur3.js
         <div className="row">
           <div className="col h1 text-center p">
             Islamic Boarding <br></br> School SMK TI BAZMA
+=======
+      <div className="h1  text-green-700 text-lg-center">Islamic Boarding School SMK TI BAZMA</div>
+        <div className="row pt-5">
+          <div className="col h1 text-center">
+          <img src={Logo} alt=""></img>
+>>>>>>> Stashed changes:src/Component/heading.js
           </div>
           <div className="col order-5 text-center">
             <div className="mb-3 p h3">
@@ -28,6 +36,7 @@ class Fitur3 extends Component {
             <button className="btn btn-dark">Selengkapanya</button>
           </div>
         </div>
+        
       </div>
     );
   }
